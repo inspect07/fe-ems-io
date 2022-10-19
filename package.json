@@ -13,6 +13,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "@vueuse/core": "^9.2.0",
+    "aos": "^2.3.4",
     "sass-loader": "^13.0.2",
     "swiper": "^8.4.4",
     "vue": "^3.2.38",

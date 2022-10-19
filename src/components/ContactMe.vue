@@ -1,14 +1,28 @@
 <template>
   <div class="max-w-7xl m-center pt-1 pb-20">
     <div class="about-me text-center mt-10 md:mt-32">
-      <h2 class="text-5xl dark:text-white">Get in Touch</h2>
-      <h4 class="f-gray text-lg dark:text-white pt-9 w-9/12 m-auto">
+      <h2
+        class="text-5xl dark:text-white"
+        data-aos="fade-right"
+        data-aos-duration="500"
+      >
+        Get in Touch
+      </h2>
+      <h4
+        class="f-gray text-lg dark:text-white pt-9 w-9/12 m-auto"
+        data-aos="fade-right"
+        data-aos-duration="500"
+      >
         Although I’m not currently looking for any new opportunities, my inbox
         is always open. Whether you have a question or just want to say hi, I’ll
         try my best to get back to you!
       </h4>
     </div>
-    <div class="flex justify-center items-center mt-24">
+    <div
+      class="flex justify-center items-center mt-24"
+      data-aos="fade-right"
+      data-aos-duration="500"
+    >
       <button class="button dark:text-white dark:border-white w-36">
         <a href="mailto:eman15santiago@gmail.com">Say Hi</a>
       </button>

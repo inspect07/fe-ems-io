@@ -1,11 +1,19 @@
 <template>
-  <div class="max-w-7xl m-center pt-10">
-    <div class="skills text-center mt-10">
+  <div class="max-w-7xl m-center pt-48">
+    <div
+      class="skills text-center mt-10"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="800"
+    >
       <h2 class="text-5xl dark:text-white">Skills</h2>
       <span class="f-gray text-sm dark:text-white">My Technical Level</span>
     </div>
     <div class="skill-details flex mt-20 flex-col lg:flex-row lg:gap-10">
       <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-delay="200"
         class="lg:w-1/3 md:w-96 md:m-auto md:mb-16 card bg-white drop-shadow-2xl dark:bg-slate-800"
       >
         <h2 class="pt-7 pl-5 flex items-center">
@@ -106,6 +114,9 @@
         </div>
       </div>
       <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-delay="400"
         class="lg:w-1/3 md:w-96 md:m-auto md:mb-16 card bg-white drop-shadow-2xl dark:bg-slate-800"
       >
         <h2 class="pt-7 pl-5 flex items-center">
@@ -182,6 +193,9 @@
         </div>
       </div>
       <div
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-delay="600"
         class="lg:w-1/3 md:w-96 md:m-auto md:mb-16 card bg-white drop-shadow-2xl dark:bg-slate-800"
       >
         <h2 class="pt-7 pl-5 flex items-center">

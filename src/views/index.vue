@@ -9,10 +9,12 @@ import Footer from "@/components/Footer.vue";
 import ContactMe from "@/components/ContactMe.vue";
 
 import { ref, onMounted } from "@vue/runtime-dom";
+import AOS from "aos";
 
 const loading = ref(true);
 
 onMounted(() => {
+  AOS.init({});
   setTimeout(() => {
     loading.value = false;
   }, 5000);
