@@ -1,20 +1,35 @@
 <template>
   <div class="max-w-7xl m-center pt-20 pb-20">
-    <div class="about-me text-center mt-10 md:mt-32">
+    <div
+      class="about-me text-center mt-10 md:mt-32"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="800"
+    >
       <h2 class="text-5xl dark:text-white">About Me</h2>
-      <span class="f-gray text-sm dark:text-white">Sample text</span>
+      <span class="f-gray text-sm dark:text-white">Personal</span>
     </div>
     <div
       class="details flex mt-20 md:flex-col-reverse lg:flex-row flex-col-reverse"
     >
-      <div class="image lg:w-3/6 mt-12 lg:m-auto">
+      <div
+        class="image lg:w-3/6 mt-12 lg:m-auto"
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-duration="500"
+      >
         <img
           class="w-11/12 rounded-md drop-shadow-lg m-auto lg:m-0"
           src="https://drive.google.com/uc?id=1yEpw7JEQ8xdE0bXUaYlPuKmQzcwB091_"
           alt=""
         />
       </div>
-      <div class="information lg:w-3/6 flex flex-col">
+      <div
+        class="information lg:w-3/6 flex flex-col"
+        data-aos="fade-right"
+        data-aos-delay="1200"
+        data-aos-duration="500"
+      >
         <div
           class="cover-letter f-gray text-lg pb-7 dark:text-white text-center lg:text-left md:justify-center lg:justify-start"
         >
@@ -52,7 +67,7 @@
         <div class="resume pt-10">
           <button class="btn-accent flex items-center m-auto lg:m-0">
             <a
-              href="https://drive.google.com/file/d/1JhFO_aLPnGnkQtEgWE6N7IDQNRljfqIf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Dm9ZS4u43MveDgeK5qUwUJ5uWQwDrMy8/view?usp=sharing"
               target="_blank"
             >
               Download CV&nbsp;

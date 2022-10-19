@@ -1,10 +1,20 @@
 <template>
   <div class="max-w-7xl m-center pt-20">
-    <div class="about-me text-center mt-10 md:mt-32">
+    <div
+      class="about-me text-center mt-10 md:mt-32"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="800"
+    >
       <h2 class="text-5xl dark:text-white">Portfolio</h2>
       <span class="f-gray text-sm dark:text-white">Recent Projects</span>
     </div>
-    <div class="details flex gap-10 justify-center">
+    <div
+      class="details flex gap-10 justify-center"
+      data-aos="fade-left"
+      data-aos-delay="500"
+      data-aos-duration="600"
+    >
       <swiper
         :slidesPerView="3"
         :spaceBetween="0"
