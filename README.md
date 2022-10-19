@@ -10,6 +10,7 @@ https://inspect07.github.io/fe-ems-io/
 ```sh
 npm install
 ```
+or
 ```sh
 yarn install
 ```
@@ -19,6 +20,7 @@ yarn install
 ```sh
 npm run dev
 ```
+or
 ```sh
 yarn run dev
 ```
@@ -28,6 +30,7 @@ yarn run dev
 ```sh
 npm run build
 ```
+or
 ```sh
 yarn run build
 ```
@@ -37,6 +40,7 @@ yarn run build
 ```sh
 npm run lint
 ```
+or
 ```sh
 yarn run lint
 ```
